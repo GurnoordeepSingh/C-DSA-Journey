@@ -1,7 +1,5 @@
 # 🚀 C++ DSA Journey
 
-# 🚀 C++ DSA Journey
-
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Days](https://img.shields.io/badge/Days-2-brightgreen?style=flat-square)
 ![Problems](https://img.shields.io/badge/Problems-2-orange?style=flat-square)
@@ -13,7 +11,7 @@
 
 ░░░░░░░░░░░░░░░░░░░░ 2%
 
-🎯 Goal : 100 Days
+🎯 Goal : **2/100 Days**
 
 📅 Days Completed : **2**
 
@@ -36,8 +34,6 @@
 
 ### 📚 Topics
 - C++ Basics
-
-### 💻 LeetCode
 - None
 
 ### 📝 Notes
@@ -49,8 +45,6 @@
 
 ### 📚 Topics
 - Strings, Numbers and Math functions
-
-### 💻 LeetCode
 - -Biggest rectangle in histogram, leetcode 84
 
 ### 📝 Notes

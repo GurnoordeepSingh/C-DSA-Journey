@@ -82,7 +82,7 @@ with open("README.md", "w", encoding="utf-8") as readme:
 
     progress_bar = "█" * filled_blocks + "░" * (20 - filled_blocks)
     # NOW write the README
-    readme.write("# 🚀 C++ DSA Journey\n\n")
+   
 
     readme.write("![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)\n")
     readme.write(f"![Days](https://img.shields.io/badge/Days-{completed}-brightgreen?style=flat-square)\n")
@@ -95,9 +95,9 @@ with open("README.md", "w", encoding="utf-8") as readme:
     readme.write("## 📊 Dashboard\n\n")
     readme.write(f"{progress_bar} {percentage}%\n\n")
 
-    readme.write(f"🎯 Goal : {goal} Days\n\n")
+    readme.write(f"🎯 Goal : **{completed}/{goal} Days**\n\n")
 
-    readme.write(f"📅 Days Completed : **{len(all_days)}**\n\n")
+    readme.write(f"📅 Days Completed : **{completed}**\n\n")
 
     readme.write(f"🧩 Problems Solved : **{total_questions}**\n\n")
 
@@ -126,10 +126,11 @@ with open("README.md", "w", encoding="utf-8") as readme:
         for topic in day["topic"]:
             readme.write(f"- {topic}\n")
 
-        readme.write("\n### 💻 LeetCode\n")
-
-        for problem in day["leetcode"]:
-            readme.write(f"- {problem}\n")
+        if day["leetcode"]:
+            for problem in day["leetcode"]:
+                readme.write(f"- {problem}\n")
+        else:
+            readme.write("- None\n")
 
         readme.write("\n### 📝 Notes\n")
 
