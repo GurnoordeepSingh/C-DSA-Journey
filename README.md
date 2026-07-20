@@ -1,5 +1,12 @@
 # 🚀 C++ DSA Journey
 
+# 🚀 C++ DSA Journey
+
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
+![Days](https://img.shields.io/badge/Days-2-brightgreen?style=flat-square)
+![Problems](https://img.shields.io/badge/Problems-2-orange?style=flat-square)
+![Topics](https://img.shields.io/badge/Topics-2-purple?style=flat-square)
+
 > This README is automatically generated.
 
 ## 📊 Dashboard
@@ -21,9 +28,6 @@
 ## 📑 Table of Contents
 
 - [Day 1 - C++ Basics](#day-1)
-
----
-
 - [Day 2 - Strings, Numbers and Math functions](#day-2)
 
 ---

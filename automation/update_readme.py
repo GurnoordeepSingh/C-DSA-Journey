@@ -58,7 +58,7 @@ for file in cpp_files:
 with open("README.md", "w", encoding="utf-8") as readme:
 
     readme.write("# 🚀 C++ DSA Journey\n\n")
-    readme.write("> This README is automatically generated.\n\n")
+    
 
     
     total_questions = sum(len(day["leetcode"]) for day in all_days)
@@ -81,6 +81,14 @@ with open("README.md", "w", encoding="utf-8") as readme:
     filled_blocks = percentage // 5
 
     progress_bar = "█" * filled_blocks + "░" * (20 - filled_blocks)
+    # NOW write the README
+    readme.write("# 🚀 C++ DSA Journey\n\n")
+
+    readme.write("![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)\n")
+    readme.write(f"![Days](https://img.shields.io/badge/Days-{completed}-brightgreen?style=flat-square)\n")
+    readme.write(f"![Problems](https://img.shields.io/badge/Problems-{total_questions}-orange?style=flat-square)\n")
+    readme.write(f"![Topics](https://img.shields.io/badge/Topics-{total_topics}-purple?style=flat-square)\n\n")
+    readme.write("> This README is automatically generated.\n\n")
 
     
 
@@ -107,7 +115,7 @@ with open("README.md", "w", encoding="utf-8") as readme:
 
         readme.write(f"- [Day {day['day']} - {topic}](#day-{day['day']})\n")
 
-        readme.write("\n---\n\n")
+    readme.write("\n---\n\n")
 
     for day in all_days:
 
