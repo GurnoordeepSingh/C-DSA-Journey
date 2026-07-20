@@ -1,3 +1,18 @@
+/*
+DAY: 2
+
+TOPIC:
+Strings, Numbers and Math functions
+
+LEETCODE:
+-Biggest rectangle in histogram, leetcode 84
+
+NOTES:
+Learned about strings, numbers and math functions in C++.
+*/
+
+
+
 #include<iostream> //for input output
 #include<cmath> //for mathematical functions
 using namespace std;
@@ -26,6 +41,6 @@ int main() {
     cout<<"ceil="<<ceil(2.2)<<endl; // rounds to larger integer
     cout<<"max="<<max(2,5)<<endl; //fmax and max are same, fmax is for double and max is for int
     //opposite of max is min
-    
+
     return 0; 
 }

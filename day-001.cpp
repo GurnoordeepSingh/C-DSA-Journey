@@ -1,3 +1,17 @@
+/*
+DAY: 1
+
+TOPIC:
+C++ Basics
+
+LEETCODE:
+- None
+
+NOTES:
+Learned cout, cin and variables.
+*/
+
+
 #include<iostream>
 using namespace std;
 int main(){
